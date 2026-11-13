@@ -1,0 +1,14 @@
+/* mailglass code colors for ExDoc and HexDocs. Version 2.0. NOT verified inside a real ExDoc build: it was written from ExDoc's token class names.
+   Load it with the ExDoc :before_closing_head_tag option or as an extra stylesheet. GitHub colors the code in a README itself; this file does not change that.
+   No code color equals a status color. Inline code in a sentence is not colored by this file. */
+:root{--mg-bg:#EFE9DD;--mg-text:#2A1D17;--mg-comment:#6F6157;--mg-keyword:#0A6488;--mg-string:#8A4B1D;--mg-atom:#2F6B6B;--mg-number:#5C6B1E;--mg-function:#3F4F9E;--mg-module:#4A5C7A}
+@media (prefers-color-scheme:dark){:root{--mg-bg:#14100D;--mg-text:#F3EEEA;--mg-comment:#A59A90;--mg-keyword:#6CC6F0;--mg-string:#E0A878;--mg-atom:#7FCFCF;--mg-number:#B7C972;--mg-function:#9DB1F0;--mg-module:#A9B8D6}}
+body.dark{--mg-bg:#14100D;--mg-text:#F3EEEA;--mg-comment:#A59A90;--mg-keyword:#6CC6F0;--mg-string:#E0A878;--mg-atom:#7FCFCF;--mg-number:#B7C972;--mg-function:#9DB1F0;--mg-module:#A9B8D6}
+pre code.makeup{background:var(--mg-bg);color:var(--mg-text);font-variant-ligatures:none}
+.makeup .k,.makeup .kd,.makeup .kn,.makeup .kp,.makeup .kr,.makeup .kt,.makeup .ow{color:var(--mg-keyword)}
+.makeup .s,.makeup .s1,.makeup .s2,.makeup .sa,.makeup .sb,.makeup .sc,.makeup .sd,.makeup .se,.makeup .sh,.makeup .si,.makeup .sx,.makeup .sr,.makeup .sl{color:var(--mg-string)}
+.makeup .ss,.makeup .na,.makeup .no{color:var(--mg-atom)}
+.makeup .m,.makeup .mb,.makeup .mf,.makeup .mh,.makeup .mi,.makeup .mo,.makeup .il{color:var(--mg-number)}
+.makeup .nf,.makeup .fm{color:var(--mg-function)}
+.makeup .nc,.makeup .nn{color:var(--mg-module)}
+.makeup .c,.makeup .c1,.makeup .cm,.makeup .cs,.makeup .ch,.makeup .cp,.makeup .cpf{color:var(--mg-comment)}
