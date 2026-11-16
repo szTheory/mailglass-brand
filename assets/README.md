@@ -1,6 +1,6 @@
 # mailglass assets: which file to use
 
-Open `index.html` in a browser for previews. Version 2.0, November 13, 2026.
+Open `index.html` in a browser for previews. Version 2.0.1, November 16, 2026.
 
 ## Logo on a light background
 
@@ -21,7 +21,7 @@ Open `index.html` in a browser for previews. Version 2.0, November 13, 2026.
 - `logo/mailglass-mark-mono-ink.svg`
 - `logo/mailglass-mark-mono-bone.svg`
 
-## Favicon (the m, drawn for 16 and 32 px)
+## Favicon (optically tuned for 16 and 32 px)
 
 - `icon/favicon.svg`
 - `icon/favicon.ico`
@@ -59,4 +59,4 @@ Open `index.html` in a browser for previews. Version 2.0, November 13, 2026.
 - `fonts/OFL-AtkinsonHyperlegibleNext.txt`
 - `fonts/OFL-AtkinsonHyperlegibleMono.txt`
 
-All logo SVGs are flat filled paths (no live text, no strokes, no masks) in exact brand colors, transparent. `light` files are for light backgrounds, `dark` for dark ones; `mono-ink` and `mono-bone` are one-color drawings, not recolors. `lockup` is the typemark and `mark` is the m alone; the favicon files are the m drawn for exactly 16 and 32 px. The avatar is the one file with a plate. `icon/favicon.svg` swaps its glass and overlap with the device theme; the ICO is light ink only. `docs/mailglass-exdoc.css` colors code in ExDoc and has not been run in a real ExDoc build. Fonts are SIL Open Font License 1.1 (licenses in `fonts/`). This edition has no logo animation and no sound files.
+All logo SVGs are flat filled paths (no live text, no strokes, no masks) in exact brand colors, transparent. `light` files are for light backgrounds, `dark` for dark ones; `mono-ink` and `mono-bone` are one-color drawings, not recolors. `lockup` is the typemark and `mark` is the m alone; the favicon upper arches include a small-size optical correction; stems and openings remain on the 16/32 px grid. The avatar is the one file with a plate. `icon/favicon.svg` swaps its glass and overlap with the device theme; the ICO is light ink only. `docs/mailglass-exdoc.css` colors code in ExDoc and has not been run in a real ExDoc build. Fonts are SIL Open Font License 1.1 (licenses in `fonts/`). This edition has no logo animation and no sound files.
