@@ -1,6 +1,6 @@
 # mailglass brand
 
-Version 2.0, November 13, 2026. This is the complete text of the brand book (`mailglass-brand-book.html`), page by page, for people and AI assistants. The same rules as structured data are in `brand.json`; colors and type values in `tokens.json`; every file is explained in `assets/README.md`.
+Version 2.0.1, November 16, 2026. This is the complete text of the brand book (`mailglass-brand-book.html`), page by page, for people and AI assistants. The same rules as structured data are in `brand.json`; colors and type values in `tokens.json`; every file is explained in `assets/README.md`.
 
 **Read this first.** Transactional email for Phoenix, with a preview and a delivery timeline. Check your email before it ships, then find out what happened to it. The name is written `mailglass`, all lowercase. Light is the default theme and dark is a full theme. The logo is the typemark: the word with its m drawn as two overlapping panes of glass, with no shape behind it and no tagline. Every delivery status is a word first, with its pane-of-glass mark and color second. The contrast pairs have stable ids (body, descriptor, caption, application-copy, link, focus, artwork, and one status pair per status) in both themes.
 
@@ -156,7 +156,7 @@ The host app’s customers never see mailglass: the emails keep the host app’s
 
 **The m.** The symbol alone, for avatars, app icons and stickers. Where the name needs to show, use the typemark instead.
 
-**Drawn for small sizes.** The m alone is the symbol, for avatars, app icons and stickers. The favicon is the m drawn for exactly 16 and 32 px: stems of 2 and 4 px, openings of 4 and 8 px, so the stems land on the pixel grid. At 16 px the overlap is a hairline and the m reads as a plain arched m; that is expected. Below 16 px, do not use the mark.
+**Drawn for small sizes.** The m alone is the symbol, for avatars, app icons and stickers. The favicon uses an optical correction to its upper arches for small raster sizes. At 16 px, the inner crown is slightly fuller and the outer crown tighter; the 2 px stems and 4 px openings stay on the pixel grid. At 32 px, the corresponding stem and opening widths are 4 px and 8 px. At 16 px the overlap is a hairline and the m reads as a plain arched m; that is expected. Below 16 px, do not use the mark.
 
 **Light is the default theme.** The logo has a version for each theme. On light, the word is Espresso, the panes are Glass and the overlap is Deep Glass, which is darker. On dark, the word is Bone, the panes are Glass Light and the overlap is Lit Glass, which is lighter. Use the version made for the background; do not make one by inverting the colors of the other. The typemark is the logo. Do not rearrange it, redraw the m, split the two panes apart, or tint one pane differently from the other.
 
@@ -166,7 +166,7 @@ The host app’s customers never see mailglass: the emails keep the host app’s
 
 **The m.** The symbol alone, for avatars, app icons and stickers. Where the name needs to show, use the typemark instead.
 
-**Drawn for small sizes.** The m alone is the symbol, for avatars, app icons and stickers. The favicon is the m drawn for exactly 16 and 32 px: stems of 2 and 4 px, openings of 4 and 8 px, so the stems land on the pixel grid. At 16 px the overlap is a hairline and the m reads as a plain arched m; that is expected. Below 16 px, do not use the mark.
+**Drawn for small sizes.** The m alone is the symbol, for avatars, app icons and stickers. The favicon uses an optical correction to its upper arches for small raster sizes. At 16 px, the inner crown is slightly fuller and the outer crown tighter; the 2 px stems and 4 px openings stay on the pixel grid. At 32 px, the corresponding stem and opening widths are 4 px and 8 px. At 16 px the overlap is a hairline and the m reads as a plain arched m; that is expected. Below 16 px, do not use the mark.
 
 **Dark is a full theme.** The logo has a version for each theme. On light, the word is Espresso, the panes are Glass and the overlap is Deep Glass, which is darker. On dark, the word is Bone, the panes are Glass Light and the overlap is Lit Glass, which is lighter. Use the version made for the background; do not make one by inverting the colors of the other. The typemark is the logo. Do not rearrange it, redraw the m, split the two panes apart, or tint one pane differently from the other.
 
@@ -174,7 +174,7 @@ The host app’s customers never see mailglass: the emails keep the host app’s
 
 **The m, drawn for small sizes.**
 
-The m alone is the symbol, for avatars, app icons and stickers. The favicon is the m drawn for exactly 16 and 32 px: stems of 2 and 4 px, openings of 4 and 8 px, so the stems land on the pixel grid. At 16 px the overlap is a hairline and the m reads as a plain arched m; that is expected. Below 16 px, do not use the mark.
+The m alone is the symbol, for avatars, app icons and stickers. The favicon uses an optical correction to its upper arches for small raster sizes. At 16 px, the inner crown is slightly fuller and the outer crown tighter; the 2 px stems and 4 px openings stay on the pixel grid. At 32 px, the corresponding stem and opening widths are 4 px and 8 px. At 16 px the overlap is a hairline and the m reads as a plain arched m; that is expected. Below 16 px, do not use the mark.
 
 The browser tab follows the theme: `favicon.svg` draws the m with its overlap deeper on a light device and lighter on a dark one. The `.ico` is the light drawing only, because an ICO can’t change with the theme.
 
@@ -718,6 +718,8 @@ The symbol alone, once, at a size where the overlap reads.
 - Fonts are SIL Open Font License 1.1; their license texts ship in the assets folder.
 
 ### Revision history
+
+**Version 2.0.1**, November 16, 2026. This patch refines only the favicon’s upper curves for small raster sizes; it preserves the two-pane silhouette, overlap, colors, stems and openings.
 
 **Version 2.0**, November 13, 2026. This edition replaces the earlier brand book. The m is now two overlapping panes of glass, in azure, set in espresso on sand. Retires the sealed-flap mark, the navy and teal colors, Inter and IBM Plex Mono. Adds the five delivery statuses as panes of glass, light as the default theme with a complete dark theme, and code colors for ExDoc and the applications.
 
